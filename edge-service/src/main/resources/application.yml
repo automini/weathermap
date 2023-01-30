@@ -7,7 +7,7 @@ servicecomb:
     version: 0.0.1
     registry:
       # Default using local service center
-      address: https://cse.cn-north-4.myhuaweicloud.com #此处填写要注册到的微服务引擎的注册中心地址
+      address: https://cse.ap-southeast-1.myhuaweicloud.com #此处填写要注册到的微服务引擎的注册中心地址
       # address: https://cse.cn-south-1.myhuaweicloud.com
       instance:
         watch: false
@@ -26,7 +26,7 @@ servicecomb:
   monitor:
     client:
       enabled: true
-      serverUri: https://cse.cn-north-4.myhuaweicloud.com
+      serverUri: https://cse.ap-southeast-1.myhuaweicloud.com
 
 # Here we just give a simple demo.
 # The traffic is forwarded to the microservice fusionweather, and the actual scene is much more complex than this
